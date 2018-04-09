@@ -22,4 +22,19 @@ def start_of_word (word,n)
   end
 
 return mot
+
+end
+
+def first_word (string)
+
+  word = string.split (" ")
+return word[0]
+
+end
+
+def titleize (string)
+  array = string.split(" ")
+  array.map! {|i| i.capitalize}
+end
+  array.each {|x|return x}
 end
