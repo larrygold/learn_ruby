@@ -35,6 +35,5 @@ end
 def titleize (string)
   array = string.split(" ")
   array.map! {|i| i.capitalize}
-end
   array.each {|x|return x}
 end
